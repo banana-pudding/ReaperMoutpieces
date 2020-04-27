@@ -2,7 +2,7 @@
     --maintext: #d4b922;
     --secondtext: white;
     --border: hsl(51, 72%, 28%);
-    --link: #d4b922;
+    --link: rgb(212, 185, 34);
     --hover: hsl(51, 72%, 78%);
     --selected: white;
 }
