@@ -3,10 +3,35 @@ body {
     margin: 0px;
 }
 
-.bgimg {
+.imageholder {
     width: 100%;
     position: absolute;
     z-index: -999;
+}
+
+.bgimg {
+    background-image: url("../images/player.jpg");
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+}
+
+.topgrad {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    background-image: linear-gradient(black, transparent);
+    z-index: 1;
+    top: 0;
+}
+
+.bottomgrad {
+    width: 100%;
+    height: 400px;
+    position: absolute;
+    background-image: linear-gradient(transparent, black);
+    z-index: 1;
+    bottom: 0;
 }
 
 #container {
