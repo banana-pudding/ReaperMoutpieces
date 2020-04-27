@@ -1,0 +1,21 @@
+* {
+    font-family: 'Abel', sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: normal;
+}
+
+h1 .firstWord {
+    color: var(--maintext);
+}
+
+h1 .secondWord {
+    color: var(--secondtext);
+}
+
+.content .bgimg {
+    opacity: 0.7;
+}
