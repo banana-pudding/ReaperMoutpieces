@@ -2,13 +2,18 @@
     font-family: 'Abel', sans-serif;
 }
 
+@font-face {
+    font-family: invited;
+    src: url(../fonts/invited.otf);
+}
+
 header {
     border-bottom: 1px solid var(--border);
 }
 
 h1 {
     color: white;
-    font-family: 'Tangerine', cursive;
+    font-family: 'invited', cursive;
     font-weight: normal;
     font-size: 120px;
     text-align: center;
