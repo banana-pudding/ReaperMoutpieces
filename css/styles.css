@@ -3,6 +3,12 @@ body {
     margin: 0px;
 }
 
+.bgimg {
+    width: 100%;
+    position: absolute;
+    z-index: -999;
+}
+
 #container {
     width: 75%;
     max-width: 1200px;
@@ -15,7 +21,7 @@ header {
     height: 75px;
 }
 
-header h1 {
+header h2 {
     float: left;
 }
 
@@ -28,7 +34,7 @@ header .navbar {
     float: left;
     text-align: center;
     line-height: 75px;
-    margin: 0 5px;
+    margin: 0 15px;
 }
 
 .navbar .link a {
@@ -40,9 +46,5 @@ header .navbar {
 
 .content {
     width: 100%;
-}
-
-.content .bgimg {
-    width: 100%;
-    display: inline-block;
+    position: relative;
 }
