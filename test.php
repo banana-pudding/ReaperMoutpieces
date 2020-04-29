@@ -5,7 +5,7 @@ $username = "reapppaq_reapppaq";
 $password = "reaper123!"; 
 $database = "database"; 
 $mysqli = new mysqli("localhost", $username, $password, $database); 
-$query = "SELECT * FROM table_name";
+$query = "SELECT * FROM testtable";
  
  
 echo '<table border="0" cellspacing="2" cellpadding="2"> 
