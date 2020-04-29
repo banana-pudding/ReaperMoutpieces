@@ -1,7 +1,7 @@
 <html>
 <body>
 <?php 
-$username = "reapppaq"; 
+$username = "reapppaq_reapppaq"; 
 $password = "reaper123!"; 
 $database = "database"; 
 $mysqli = new mysqli("localhost", $username, $password, $database); 
